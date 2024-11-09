@@ -1,0 +1,160 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #111111;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #e60000;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #e60000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #a30000;
+}
+
+/* Synopsis Section */
+.synopsis {
+    padding: 40px;
+    text-align: center;
+    background-color: #222222;
+}
+
+.synopsis h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #e60000;
+}
+
+.synopsis p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Trailer Section */
+.trailer {
+    padding: 40px;
+    text-align: center;
+    background-color: #111111;
+}
+
+.trailer h3 {
+    font-size: 2em;
+    color: #e60000;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Cast Section */
+.cast {
+    padding: 40px;
+    text-align: center;
+}
+
+.cast h3 {
+    font-size: 2em;
+    color: #e60000;
+    margin-bottom: 20px;
+}
+
+.cast-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cast-member {
+    width: 150px;
+    text-align: center;
+}
+
+..cast-member img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.cast-member p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #aaaaaa;
+}
+
+.footer p {
+    font-size: 0.9em;
+}
